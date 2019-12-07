@@ -11,7 +11,7 @@ class RadnoMjestoTest {
         assertEquals("Direktor", rm.getNaziv());
         assertEquals(10, rm.getKoeficijent());
         assertEquals("Selma Selmić", rm.getRadnik().getImePrezime());
-
+// test
         // Drugi test?
         rm = new RadnoMjesto();
         rm.setNaziv("Portir");
